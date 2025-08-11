@@ -1,0 +1,34 @@
+<!-- div属性　-->
+<!--
+class属性　: 　あらかじめ定義されたdivタグのクラスのスタイルを指定する属性
+　　使い道　：　同じスタイルを複数箇所で使うとき / デザイン変更が頻繁なとき
+
+style属性　:　コンテンツのスタイルを直接定義できる属性 
+　　使い道　:  その場で直接書けるので簡単だが、使い回しや管理がしにくい
+              一度きりの装飾 / 試し書きやデモ
+その他     :　id/title/align/nowrap/dir/lang......
+
+例1- class --
+3人の名前が記述されている範囲だけ、背景色を黃色
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .character{
+            background: #ffff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="character">
+    <p>霧島京子</p>
+    <p>六村リオ</p>
+    <p>緑川つばめ</p>
+    </div>
+</body>
+
+例2-style --
+  <div style="background: #ffff00;">
+        <p>霧島京子</p>
+        <p>六村リオ</p>
+        <p>緑川つばめ</p>
+-->
