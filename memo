@@ -88,7 +88,7 @@ CSSやJavaScriptのファイルを読み込む場所
 HTMLを作るときはテンプレに最初から<meta charset="UTF-8">入れておく
 <head>の最初に書く（1〜2行目くらい）
 
-VS Codeやエディタの設定で保存時はUTF-8固定にする　　                          ←　ここのVS Codeはまだやってない。
+VS Codeやエディタの設定で保存時はUTF-8固定にする
 -->
 
 
